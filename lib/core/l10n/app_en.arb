@@ -1,0 +1,17 @@
+{
+  "@@locale": "en",
+  "appTitle": "WHEEL FC",
+  "navHome": "Home",
+  "navStandings": "Standings",
+  "navMatches": "Matches",
+  "navStats": "Stats",
+  "navMore": "More",
+  "lastUpdated": "Last update: {date}",
+  "offlineBanner": "Offline — showing last saved data",
+  "liveNow": "Live now",
+  "liveVs": "WHEEL FC vs {opponent}",
+  "retry": "Try again",
+  "noLiveMatch": "No match right now",
+  "clockNotStarted": "Not started",
+  "clockBreak": "Break"
+}

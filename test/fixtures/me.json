@@ -1,0 +1,1 @@
+{ "data": { "id": 1, "name": "حمزة", "email": "admin@wheel.fc", "roles": ["super_admin"], "permissions": ["players.view", "live.manage", "matches.update", "config.update"] } }

@@ -1,0 +1,15 @@
+{ "data": {
+  "team": { "name": "WHEEL FC", "slogan": "DRIVE FURTHER", "crest_url": "http://localhost/wheel/storage/team/crest.png", "group_photo_url": null, "public_site_url": "https://wheel-fc-ranking.netlify.app" },
+  "updated": "2026-10-30",
+  "tiers": {
+    "A": { "title": "النخبة", "label_en": "Elite", "min": 80, "max": 99, "range": "80-99", "players": [
+      { "slug": "hassan", "name": "حسن", "number": 9, "photo_url": "http://localhost/wheel/storage/players/hassan.jpg", "is_goalkeeper": false,
+        "rating": 82, "rating_exact": 81.5, "rank": 1, "trend": 1.5, "moved": "up", "tier_now": "A", "tier_prev": "B" } ] },
+    "B": { "title": "المنافسون", "label_en": "Contenders", "min": 40, "max": 79, "range": "40-79", "players": [] },
+    "C": { "title": "الطموح", "label_en": "Ambitious", "min": 10, "max": 39, "range": "10-39", "players": [] }
+  },
+  "record": { "mp": 1, "w": 1, "d": 0, "l": 0, "gf": 2, "ga": 1, "cs": 0 },
+  "awards": [ { "key": "top_rated", "icon": "👑", "ar": "الأعلى تقييماً", "en": "RANK 1", "unit": "pts", "val": 81.5, "player": { "slug": "hassan", "name": "حسن", "rank": 1, "tier": "A" } } ],
+  "live": { "code": "m-20261030-abc123", "opponent": "رجائي", "score": { "us": 2, "them": 1 }, "updated_at": "2026-10-31T10:19:26.000000Z" },
+  "version": 22
+} }

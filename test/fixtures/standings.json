@@ -1,0 +1,12 @@
+{ "data": {
+  "A": { "title": "النخبة", "label_en": "Elite", "min": 80, "max": 99, "range": "80-99",
+    "players": [
+      { "slug": "hassan", "name": "حسن", "rating": 82, "rating_exact": 81.5, "rank": 1, "tier_now": "A", "tier_prev": "B", "moved": "up", "trend": 1.5, "photo_url": null, "stats": { "mp": 1, "g": 1, "a": 0, "s": 0, "t": 0 } },
+      { "slug": "sameh", "name": "سامح", "rating": 80, "rating_exact": 80.3, "rank": 2, "tier_now": "A", "tier_prev": "A", "moved": null, "trend": 0.3, "photo_url": null, "stats": { "mp": 1, "g": 0, "a": 3, "s": 0, "t": 0 } }
+    ] },
+  "B": { "title": "المنافسون", "label_en": "Contenders", "min": 40, "max": 79, "range": "40-79", "players": [] },
+  "C": { "title": "الطموح", "label_en": "Ambitious", "min": 10, "max": 39, "range": "10-39",
+    "players": [
+      { "slug": "basel", "name": "باسل", "rating": 32, "rating_exact": 31.8, "rank": 5, "tier_now": "C", "tier_prev": "C", "moved": null, "trend": -0.4, "photo_url": null, "stats": { "mp": 2, "g": 0, "a": 0, "s": 0, "t": 1 } }
+    ] }
+} }

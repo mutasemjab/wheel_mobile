@@ -1,0 +1,1 @@
+{ "data": { "token": "1|abcdef", "user": { "id": 2, "name": "مدير المباراة", "email": "match@wheel.fc", "roles": ["match_admin"], "permissions": ["players.view", "matches.view", "matches.update", "live.manage"] } } }

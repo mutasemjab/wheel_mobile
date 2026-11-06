@@ -1,0 +1,12 @@
+{ "data": { "code": "m-20261030-srv999", "date": "2026-10-30", "opponent": "رجائي", "score": { "us": 1, "them": 0 },
+  "clock": { "acc_ms": 0, "run_at_ms": null, "server_now_ms": 1793441966448 },
+  "squad": [
+    { "slug": "sameh", "name": "سامح", "status": "played", "unfair": true, "late": false, "values_count": 0 },
+    { "slug": "hassan", "name": "حسن", "status": "played", "unfair": false, "late": true, "values_count": 2 },
+    { "slug": "musa", "name": "موسى", "status": "excused", "unfair": false, "late": false, "values_count": 0 }
+  ],
+  "events": [
+    { "uuid": "u5", "type": "og", "player": null, "assist": null, "minute": 3, "sort": 4 },
+    { "uuid": "u1", "type": "goal", "player": "hassan", "assist": "sameh", "minute": 1, "sort": 1 }
+  ],
+  "motm": null, "updated_at": "2026-10-31T10:19:26.000000Z" } }

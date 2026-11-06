@@ -1,0 +1,5 @@
+{ "data": {
+  "points_table": [ { "label": "مشاركة", "key": "played", "value": 3 }, { "label": "اعتذار", "key": "excused", "value": -5 } ],
+  "examples": [ { "title": "مشاركة نظيفة", "parts": [ { "label": "مشاركة", "pts": 3 }, { "label": "لعب نظيف", "pts": 2 } ], "total": 5 } ],
+  "walk_examples": [ { "r": 30, "pts": 13, "step": 6, "new_rating": 36 } ]
+} }

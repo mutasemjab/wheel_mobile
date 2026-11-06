@@ -1,0 +1,14 @@
+{ "data": [
+  { "slug": "sameh", "name": "سامح", "name_en": null, "number": 20, "role": "لاعب", "is_goalkeeper": false,
+    "photo_url": "http://localhost/wheel/storage/players/sameh.jpg", "start_tier": "A",
+    "rating": 80, "rating_exact": 80.3, "rank": 2, "tier_now": "A", "tier_prev": "A", "moved": null, "trend": 0.3,
+    "stats": { "mp":1,"g":0,"a":1,"s":0,"t":0,"w":1,"d":0,"l":0,"motm":0,"cs":0,"fp":1,"val":0,"exc":0,"late":0,"cg":0 } },
+  { "slug": "hassan", "name": "حسن", "name_en": "Hassan", "number": 9, "role": "لاعب", "is_goalkeeper": false,
+    "photo_url": "http://localhost/wheel/storage/players/hassan.jpg", "start_tier": "A",
+    "rating": 82, "rating_exact": 81.5, "rank": 1, "tier_now": "A", "tier_prev": "B", "moved": "up", "trend": 1.5,
+    "stats": { "mp":1,"g":1,"a":0,"s":0,"t":0,"w":1,"d":0,"l":0,"motm":1,"cs":0,"fp":1,"val":1,"exc":0,"late":0,"cg":0 } },
+  { "slug": "hazem", "name": "حازم", "name_en": null, "number": null, "role": "حارس", "is_goalkeeper": true,
+    "photo_url": null, "start_tier": "C",
+    "rating": 31, "rating_exact": 31, "rank": 3, "tier_now": "C", "tier_prev": "C", "moved": null, "trend": 0,
+    "stats": [] }
+] }

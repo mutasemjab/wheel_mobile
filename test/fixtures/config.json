@@ -1,0 +1,7 @@
+{ "data": {
+  "points": { "played":3,"goal":3,"assist":4,"tackle":1,"save":1,"motm":5,"fairPlay":2,"values":3,"excused":-5,"late":-5,"caused":-2 },
+  "start": { "A":80,"B":60,"C":30 }, "bounds": { "min":10,"max":99 }, "bands": { "A":80,"B":40 },
+  "move": { "perPoint":0.6,"targetDiv":10,"brakeTop":60,"brakeBottom":40 },
+  "matchFixes": { "m-1": { "note": "x" } },
+  "tiers": { "A": { "label":"النخبة","label_en":"Elite","min":80,"max":99 } }
+} }

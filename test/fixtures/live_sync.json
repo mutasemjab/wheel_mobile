@@ -1,0 +1,12 @@
+{ "message": "تمت المزامنة.",
+  "data": { "code": "m-20261030-abc123", "date": "2026-10-30", "opponent": "رجائي", "score": { "us": 1, "them": 0 },
+    "clock": { "acc_ms": 120000, "run_at_ms": 1793441919000, "server_now_ms": 1793441966448 },
+    "squad": [
+      { "slug": "a", "name": "A", "status": "played", "unfair": false, "late": false, "values_count": 0 },
+      { "slug": "b", "name": "B", "status": "played", "unfair": false, "late": false, "values_count": 0 }
+    ],
+    "events": [
+      { "uuid": "e2", "type": "og", "player": null, "assist": null, "minute": 4, "sort": 2 },
+      { "uuid": "e1", "type": "goal", "player": "a", "assist": "b", "minute": 2, "sort": 1 }
+    ],
+    "motm": null, "updated_at": "2026-10-31T10:19:26.000000Z" } }

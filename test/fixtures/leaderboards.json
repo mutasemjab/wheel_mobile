@@ -1,0 +1,9 @@
+{ "data": {
+  "boards": {
+    "goals": [ { "slug": "hassan", "name": "حسن", "value": 1, "rank": 1, "tier": "A" } ],
+    "assists": [ { "slug": "sameh", "name": "سامح", "value": 1, "rank": 1, "tier": "A" } ],
+    "ga": [], "saves": [], "tackles": [], "appearances": []
+  },
+  "team_averages": { "goals_per_match": 2, "conceded_per_match": 1, "apps_per_player": 0.3 },
+  "goals_chart": [ { "date": "2026-10-30", "opponent": "رجائي", "us": 2, "them": 1 } ]
+} }

@@ -1,0 +1,11 @@
+{ "data": {
+  "code": "m-20261030-abc123", "date": "2026-10-30", "opponent": "رجائي", "score": [2,1], "res": "W",
+  "played": [ { "slug": "sameh", "name": "سامح" }, { "slug": "hassan", "name": "حسن" }, { "slug": "basel", "name": "باسل" }, { "slug": "hazem", "name": "حازم" } ],
+  "goals": [ { "by": "hassan", "assist": "sameh", "minute": 1 } ],
+  "saves": {}, "tackles": { "basel": 1 }, "og": 1, "caused": {},
+  "late": [], "excused": ["musa"], "unfair": [], "values": {},
+  "motm": "hassan", "note": "مباراة حلوة",
+  "ratings": [
+    { "slug": "hassan", "name": "حسن", "pts": 13, "need": 8, "before": 80, "after": 81.5, "delta": 1.5, "late": false, "excused": false, "star": true },
+    { "slug": "musa", "name": "موسى", "pts": -5, "need": 3, "before": 40, "after": 39.2, "delta": -0.8, "late": false, "excused": true, "star": false }
+  ] } }

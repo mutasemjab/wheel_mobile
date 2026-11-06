@@ -1,0 +1,6 @@
+{ "data": {
+  "info": { "name": "WHEEL FC", "slogan": "DRIVE FURTHER", "crest_url": null, "group_photo_url": null, "public_site_url": "https://wheel-fc-ranking.netlify.app" },
+  "record": { "mp": 1, "w": 1, "d": 0, "l": 0, "gf": 2, "ga": 1, "cs": 0 },
+  "win_pct": 100, "gf_per_match": 2, "ga_per_match": 1, "last5": ["L", "W"],
+  "insights": [ { "icon": "🔥", "text": "الفريق ما خسر ولا مباراة" } ]
+} }

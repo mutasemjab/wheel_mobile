@@ -1,0 +1,8 @@
+{ "message": "انْشرت المباراة.",
+  "data": {
+    "code": "m-20261030-abc123", "date": "2026-10-30", "opponent": "رجائي", "score": [2,1], "res": "W",
+    "played": [ { "slug": "sameh", "name": "سامح" }, { "slug": "hassan", "name": "حسن" } ],
+    "goals": [ { "by": "hassan", "assist": "sameh", "minute": 1 } ],
+    "saves": {}, "tackles": {}, "og": 1, "caused": {},
+    "late": [], "excused": [], "unfair": [], "values": {},
+    "motm": "hassan", "note": null, "version": 23 } }

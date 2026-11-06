@@ -1,0 +1,5 @@
+{ "data": [
+  { "key": "top_rated", "icon": "👑", "ar": "الأعلى تقييماً", "en": "RANK 1", "unit": "pts", "val": 81.5, "player": { "slug": "hassan", "name": "حسن", "rank": 1, "tier": "A" } },
+  { "key": "the_rocket", "icon": "🚀", "ar": "الأكثر تطوراً", "en": "RISER", "unit": "rise", "val": 1.25, "player": { "slug": "basel", "name": "باسل", "rank": 5, "tier": "C" } },
+  { "key": "the_wall", "icon": "🧤", "ar": "أكثر تصديات", "en": "SAVES", "unit": "s", "val": null, "player": null }
+] }

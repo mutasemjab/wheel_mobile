@@ -1,0 +1,13 @@
+{ "data": {
+  "slug": "basel", "name": "باسل", "name_en": null, "number": 7, "role": "لاعب", "is_goalkeeper": false,
+  "photo_url": null, "start_tier": "C",
+  "rating": 32, "rating_exact": 31.8, "rank": 5, "tier_now": "C", "tier_prev": "C", "moved": null, "trend": 1.8000000000000007,
+  "stats": { "mp":1,"g":0,"a":0,"s":0,"t":1,"w":1,"d":0,"l":0,"motm":0,"cs":0,"fp":1,"val":1,"exc":0,"late":0,"cg":1 },
+  "history": [ { "match_code": "m-20261030-abc123", "date": "2026-10-30", "opponent": "رجائي", "res": "W", "score": [2,1],
+    "g":0,"a":0,"s":0,"t":1,"v":0,"c":0, "fair": true, "star": false, "late": false, "excused": false,
+    "pts": 6, "need": 3, "before": 30, "after": 31.8, "delta": 1.8 } ],
+  "rating_chart": [ { "label": "بداية", "value": 30 }, { "label": "10-30", "value": 31.8 } ],
+  "insights": [ { "icon": "ℹ️", "text": "أول مباراة إلو" } ],
+  "next_target": 3,
+  "gap_to_next_tier": null
+} }

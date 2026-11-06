@@ -1,0 +1,9 @@
+{ "data": { "code": "m-20261030-abc123", "date": "2026-10-30", "opponent": "رجائي",
+  "score": { "us": 2, "them": 1 },
+  "clock": { "acc_ms": 437, "run_at_ms": null, "server_now_ms": 1793441966448 },
+  "events": [
+    { "uuid": "u5", "type": "og", "player": null, "assist": null, "minute": 1 },
+    { "uuid": "u2", "type": "goal", "player": "hassan", "assist": "sameh", "minute": 1 }
+  ],
+  "player_stats": { "hassan": { "g": 1, "a": 0, "t": 0, "s": 0 } },
+  "motm": null, "updated_at": "2026-10-31T10:19:26.000000Z" } }
