@@ -4,7 +4,8 @@ import 'package:go_router/go_router.dart';
 import '../core/l10n/l10n.dart';
 import '../core/widgets/offline_banner.dart';
 
-/// Bottom navigation: الرئيسية · الترتيب · المباريات · الإحصائيات · المزيد.
+/// Bottom navigation: الرئيسية · الأخبار · المباريات · الإحصائيات · المزيد.
+/// (الترتيب is reachable from المزيد and the home tiers.)
 class AppShell extends StatelessWidget {
   const AppShell({super.key, required this.navigationShell});
 
@@ -32,8 +33,8 @@ class AppShell extends StatelessWidget {
             label: l10n.navHome,
           ),
           NavigationDestination(
-            icon: const Icon(Icons.leaderboard_rounded),
-            label: l10n.navStandings,
+            icon: const Icon(Icons.newspaper_rounded),
+            label: l10n.navNews,
           ),
           NavigationDestination(
             icon: const Icon(Icons.sports_soccer_rounded),

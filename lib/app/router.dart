@@ -20,6 +20,8 @@ import '../features/auth/domain/entities/admin_user.dart';
 import '../features/auth/presentation/bloc/auth_bloc.dart';
 import '../features/auth/presentation/pages/admin_home_page.dart';
 import '../features/auth/presentation/pages/login_page.dart';
+import '../features/compare/presentation/bloc/compare_cubit.dart';
+import '../features/compare/presentation/pages/compare_page.dart';
 import '../features/home/presentation/pages/home_page.dart';
 import '../features/leaderboards/presentation/pages/stats_page.dart';
 import '../features/live_desk/presentation/bloc/live_desk_bloc.dart';
@@ -31,6 +33,9 @@ import '../features/matches/presentation/bloc/matches_bloc.dart';
 import '../features/matches/presentation/pages/match_detail_page.dart';
 import '../features/matches/presentation/pages/matches_page.dart';
 import '../features/more/presentation/pages/more_page.dart';
+import '../features/news/presentation/bloc/post_detail_cubit.dart';
+import '../features/news/presentation/pages/news_page.dart';
+import '../features/news/presentation/pages/post_detail_page.dart';
 import '../features/players/presentation/bloc/player_profile_cubit.dart';
 import '../features/players/presentation/pages/player_profile_page.dart';
 import '../features/rules/presentation/bloc/rules_cubit.dart';
@@ -103,8 +108,20 @@ GoRouter buildRouter(AuthBloc auth) {
           StatefulShellBranch(
             routes: [
               GoRoute(
-                path: AppRoutes.standings,
-                builder: (_, _) => const StandingsPage(),
+                path: AppRoutes.news,
+                builder: (_, _) => const NewsPage(),
+                routes: [
+                  GoRoute(
+                    path: ':slug',
+                    parentNavigatorKey: parentKey,
+                    builder: (_, s) => provide(
+                      () =>
+                          sl<PostDetailCubit>(param1: s.pathParameters['slug'])
+                            ..load(),
+                      const PostDetailPage(),
+                    ),
+                  ),
+                ],
               ),
             ],
           ),
@@ -160,6 +177,15 @@ GoRouter buildRouter(AuthBloc auth) {
           () => sl<LiveViewerCubit>()..start(),
           const LiveViewerPage(),
         ),
+      ),
+      GoRoute(
+        path: AppRoutes.standings,
+        builder: (_, _) => const StandingsPage(),
+      ),
+      GoRoute(
+        path: AppRoutes.compare,
+        builder: (_, _) =>
+            provide(() => sl<CompareCubit>()..load(), const ComparePage()),
       ),
       GoRoute(
         path: AppRoutes.team,

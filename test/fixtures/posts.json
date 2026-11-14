@@ -1,0 +1,202 @@
+{
+    "data": [
+        {
+            "slug": "welcome-to-wheel-football",
+            "category": {
+                "key": "company",
+                "title": "أخبار الشركة",
+                "title_en": "Company news",
+                "icon": "🏢"
+            },
+            "title": "أهلاً بكم في تطبيق WHEEL Football",
+            "excerpt": "كل ما يخص فريق الشركة في مكان واحد: الترتيب، المباريات، البث المباشر، الأخبار ونصائح اللياقة.",
+            "cover_url": null,
+            "is_pinned": true,
+            "published_at": "2026-11-14T07:00:00.000000Z",
+            "read_minutes": 1,
+            "views": 0
+        },
+        {
+            "slug": "how-player-ratings-work",
+            "category": {
+                "key": "company",
+                "title": "أخبار الشركة",
+                "title_en": "Company news",
+                "icon": "🏢"
+            },
+            "title": "كيف يُحسب تقييم اللاعبين؟",
+            "excerpt": "شرح مبسّط لنظام النقاط والفئات وكيف يتحرك تقييمك بعد كل مباراة.",
+            "cover_url": null,
+            "is_pinned": false,
+            "published_at": "2026-11-12T07:00:00.000000Z",
+            "read_minutes": 1,
+            "views": 0
+        },
+        {
+            "slug": "fair-play-and-company-values",
+            "category": {
+                "key": "company",
+                "title": "أخبار الشركة",
+                "title_en": "Company news",
+                "icon": "🏢"
+            },
+            "title": "اللعب النظيف وقيم الشركة داخل الملعب",
+            "excerpt": "الفوز مهم، بس الطريقة اللي بنلعب فيها أهم. عشان هيك نظام التقييم بيكافئ السلوك مش بس الأهداف. نقاط اللعب النظيف كل لاعب بيبلش المباراة ومعه نقاط اللعب النظيف، و...",
+            "cover_url": null,
+            "is_pinned": false,
+            "published_at": "2026-11-10T07:00:00.000000Z",
+            "read_minutes": 1,
+            "views": 0
+        },
+        {
+            "slug": "team-sports-at-work",
+            "category": {
+                "key": "company",
+                "title": "أخبار الشركة",
+                "title_en": "Company news",
+                "icon": "🏢"
+            },
+            "title": "ليش الرياضة الجماعية مفيدة لفرق العمل؟",
+            "excerpt": "النشاط الرياضي المشترك بين الزملاء إله فوائد بتوصل لبيئة العمل نفسها. تواصل أفضل بالملعب بتتعلم تقرأ زميلك بسرعة وتنسّق معه بدون كلام كثير، وهاد بينعكس على التع...",
+            "cover_url": null,
+            "is_pinned": false,
+            "published_at": "2026-11-08T07:00:00.000000Z",
+            "read_minutes": 1,
+            "views": 0
+        },
+        {
+            "slug": "five-a-side-guide",
+            "category": {
+                "key": "football",
+                "title": "عالم الكرة",
+                "title_en": "Football",
+                "icon": "⚽"
+            },
+            "title": "دليل كرة القدم الخماسية",
+            "excerpt": "أشهر قواعد الملاعب الخماسية والفروقات عن كرة القدم العادية.",
+            "cover_url": null,
+            "is_pinned": false,
+            "published_at": "2026-11-06T07:00:00.000000Z",
+            "read_minutes": 1,
+            "views": 0
+        },
+        {
+            "slug": "offside-explained",
+            "category": {
+                "key": "football",
+                "title": "عالم الكرة",
+                "title_en": "Football",
+                "icon": "⚽"
+            },
+            "title": "التسلل ببساطة",
+            "excerpt": "متى يكون اللاعب متسللاً، ومتى لا يُحتسب التسلل أصلاً.",
+            "cover_url": null,
+            "is_pinned": false,
+            "published_at": "2026-11-04T07:00:00.000000Z",
+            "read_minutes": 1,
+            "views": 0
+        },
+        {
+            "slug": "player-positions",
+            "category": {
+                "key": "football",
+                "title": "عالم الكرة",
+                "title_en": "Football",
+                "icon": "⚽"
+            },
+            "title": "مراكز اللاعبين وأدوارها",
+            "excerpt": "معرفة دور كل مركز بتساعد الفريق يلعب بتنظيم أكثر. حارس المرمى آخر خط دفاع وأول لاعب بيبني الهجمة. التمركز والتواصل مع المدافعين أهم من الطيران. المدافع بيحمي ال...",
+            "cover_url": null,
+            "is_pinned": false,
+            "published_at": "2026-11-02T07:00:00.000000Z",
+            "read_minutes": 1,
+            "views": 0
+        },
+        {
+            "slug": "referee-signals",
+            "category": {
+                "key": "football",
+                "title": "عالم الكرة",
+                "title_en": "Football",
+                "icon": "⚽"
+            },
+            "title": "أهم إشارات الحكم",
+            "excerpt": "فهم إشارات الحكم بيخليك تعرف القرار فوراً، وبيقلل الاعتراض. ضربة حرة مباشرة: الحكم بيأشر بإيده باتجاه الفريق اللي إله الضربة. ضربة حرة غير مباشرة: الحكم برفع إي...",
+            "cover_url": null,
+            "is_pinned": false,
+            "published_at": "2026-10-31T07:00:00.000000Z",
+            "read_minutes": 1,
+            "views": 0
+        },
+        {
+            "slug": "ten-minute-warm-up",
+            "category": {
+                "key": "fitness",
+                "title": "لياقة وصحة",
+                "title_en": "Fitness & health",
+                "icon": "💪"
+            },
+            "title": "إحماء 10 دقائق قبل المباراة",
+            "excerpt": "روتين بسيط يجهّز عضلاتك ويقلل خطر الإصابة.",
+            "cover_url": null,
+            "is_pinned": false,
+            "published_at": "2026-10-29T07:00:00.000000Z",
+            "read_minutes": 1,
+            "views": 0
+        },
+        {
+            "slug": "match-day-hydration-and-food",
+            "category": {
+                "key": "fitness",
+                "title": "لياقة وصحة",
+                "title_en": "Fitness & health",
+                "icon": "💪"
+            },
+            "title": "الأكل وشرب المي يوم المباراة",
+            "excerpt": "اللي بتاكله وبتشربه قبل المباراة بيأثر مباشرة على طاقتك بالملعب. قبل المباراة وجبة متوازنة قبل ساعتين لثلاث ساعات، فيها نشويات (رز، معكرونة، خبز) وبروتين خفيف....",
+            "cover_url": null,
+            "is_pinned": false,
+            "published_at": "2026-10-27T07:00:00.000000Z",
+            "read_minutes": 1,
+            "views": 0
+        },
+        {
+            "slug": "post-match-recovery",
+            "category": {
+                "key": "fitness",
+                "title": "لياقة وصحة",
+                "title_en": "Fitness & health",
+                "icon": "💪"
+            },
+            "title": "الاستشفاء بعد المباراة",
+            "excerpt": "التعافي الصح بيخليك جاهز للمباراة الجاية وبيقلل الشد العضلي. مباشرة بعد المباراة خمس دقائق مشي أو جري خفيف جداً لتهدئة الجسم. إطالات ثابتة للعضلات الرئيسية: الف...",
+            "cover_url": null,
+            "is_pinned": false,
+            "published_at": "2026-10-25T07:00:00.000000Z",
+            "read_minutes": 1,
+            "views": 0
+        },
+        {
+            "slug": "ankle-and-knee-injury-prevention",
+            "category": {
+                "key": "fitness",
+                "title": "لياقة وصحة",
+                "title_en": "Fitness & health",
+                "icon": "💪"
+            },
+            "title": "الوقاية من إصابات الكاحل والركبة",
+            "excerpt": "الكاحل والركبة من أكثر المناطق عرضة للإصابة بالكرة، خصوصاً بالملاعب الصناعية. قبل ما تلعب البس حذاء مناسب لأرضية الملعب (عشب صناعي أو صالة). لا تتخطى الإحماء. ت...",
+            "cover_url": null,
+            "is_pinned": false,
+            "published_at": "2026-10-23T07:00:00.000000Z",
+            "read_minutes": 1,
+            "views": 0
+        }
+    ],
+    "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "total": 12,
+        "per_page": 15
+    }
+}

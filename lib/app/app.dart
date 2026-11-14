@@ -9,9 +9,11 @@ import '../core/polling/version_poller.dart';
 import '../core/theme/app_theme.dart';
 import '../features/auth/presentation/bloc/auth_bloc.dart';
 import '../features/awards/presentation/bloc/awards_cubit.dart';
+import '../features/fixtures/presentation/bloc/fixtures_cubit.dart';
 import '../features/home/presentation/bloc/home_cubit.dart';
 import '../features/leaderboards/presentation/bloc/leaderboards_cubit.dart';
 import '../features/matches/presentation/bloc/matches_bloc.dart';
+import '../features/news/presentation/bloc/news_bloc.dart';
 import '../features/standings/presentation/bloc/standings_cubit.dart';
 import 'di.dart';
 import 'router.dart';
@@ -64,6 +66,8 @@ class _WheelAppState extends State<WheelApp> {
       ),
       BlocProvider(create: (_) => sl<LeaderboardsCubit>()..load()),
       BlocProvider(create: (_) => sl<AwardsCubit>()..load()),
+      BlocProvider(create: (_) => sl<NewsBloc>()..add(const NewsStarted())),
+      BlocProvider(create: (_) => sl<FixturesCubit>()..load()),
     ],
     child: MaterialApp.router(
       onGenerateTitle: (context) => AppLocalizations.of(context).appTitle,

@@ -10,7 +10,8 @@ import '../../../../core/widgets/app_logo.dart';
 import '../../../auth/presentation/bloc/auth_bloc.dart';
 import '../../../home/presentation/bloc/home_cubit.dart';
 
-/// "المزيد": team, rules, live, public site, admin entry, about.
+/// "المزيد": standings, player comparison, team, rules, live, public site,
+/// admin entry, about.
 class MorePage extends StatelessWidget {
   const MorePage({super.key});
 
@@ -32,6 +33,18 @@ class MorePage extends StatelessWidget {
         children: [
           const Center(child: AppLogo(height: 72)),
           const SizedBox(height: AppSpacing.lg),
+          tile(
+            Icons.leaderboard_rounded,
+            l10n.navStandings,
+            () => context.push(AppRoutes.standings),
+          ),
+          gap,
+          tile(
+            Icons.compare_arrows_rounded,
+            l10n.compareTitle,
+            () => context.push(AppRoutes.compare),
+          ),
+          gap,
           tile(
             Icons.shield_rounded,
             l10n.teamInfo,

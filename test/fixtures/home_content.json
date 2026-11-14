@@ -1,0 +1,397 @@
+{
+    "data": {
+        "team": {
+            "name": "WHEEL FC",
+            "slogan": "DRIVE FURTHER",
+            "crest_path": null,
+            "group_photo_path": null,
+            "public_site_url": "https://wheel-fc-ranking.netlify.app",
+            "crest_url": null,
+            "group_photo_url": null
+        },
+        "updated": null,
+        "tiers": {
+            "A": {
+                "title": "النخبة",
+                "label_en": "Elite",
+                "min": 80,
+                "max": 99,
+                "range": "80-99",
+                "players": [
+                    {
+                        "slug": "sameh",
+                        "name": "سامح",
+                        "number": 20,
+                        "photo_url": "http://localhost/storage/players/sameh.jpg",
+                        "is_goalkeeper": false,
+                        "rating": 80,
+                        "rating_exact": 80,
+                        "rank": 1,
+                        "tier_now": "A",
+                        "tier_prev": "A",
+                        "trend": 0,
+                        "moved": null
+                    },
+                    {
+                        "slug": "hassan",
+                        "name": "حسن",
+                        "number": 10,
+                        "photo_url": "http://localhost/storage/players/hassan.jpg",
+                        "is_goalkeeper": false,
+                        "rating": 80,
+                        "rating_exact": 80,
+                        "rank": 2,
+                        "tier_now": "A",
+                        "tier_prev": "A",
+                        "trend": 0,
+                        "moved": null
+                    },
+                    {
+                        "slug": "hussam",
+                        "name": "حسام",
+                        "number": 11,
+                        "photo_url": "http://localhost/storage/players/hussam.jpg",
+                        "is_goalkeeper": false,
+                        "rating": 80,
+                        "rating_exact": 80,
+                        "rank": 3,
+                        "tier_now": "A",
+                        "tier_prev": "A",
+                        "trend": 0,
+                        "moved": null
+                    }
+                ]
+            },
+            "B": {
+                "title": "المنافسين",
+                "label_en": "Contenders",
+                "min": 40,
+                "max": 79,
+                "range": "40-79",
+                "players": [
+                    {
+                        "slug": "musa",
+                        "name": "موسى",
+                        "number": 7,
+                        "photo_url": "http://localhost/storage/players/musa.jpg",
+                        "is_goalkeeper": false,
+                        "rating": 60,
+                        "rating_exact": 60,
+                        "rank": 4,
+                        "tier_now": "B",
+                        "tier_prev": "B",
+                        "trend": 0,
+                        "moved": null
+                    },
+                    {
+                        "slug": "james",
+                        "name": "جيمس",
+                        "number": 5,
+                        "photo_url": "http://localhost/storage/players/james.jpg",
+                        "is_goalkeeper": false,
+                        "rating": 60,
+                        "rating_exact": 60,
+                        "rank": 5,
+                        "tier_now": "B",
+                        "tier_prev": "B",
+                        "trend": 0,
+                        "moved": null
+                    },
+                    {
+                        "slug": "rawashdeh",
+                        "name": "الرواشدة",
+                        "number": 6,
+                        "photo_url": "http://localhost/storage/players/rawashdeh.jpg",
+                        "is_goalkeeper": false,
+                        "rating": 60,
+                        "rating_exact": 60,
+                        "rank": 6,
+                        "tier_now": "B",
+                        "tier_prev": "B",
+                        "trend": 0,
+                        "moved": null
+                    }
+                ]
+            },
+            "C": {
+                "title": "الطموح",
+                "label_en": "Rising",
+                "min": 10,
+                "max": 39,
+                "range": "10-39",
+                "players": [
+                    {
+                        "slug": "fadi",
+                        "name": "فادي",
+                        "number": null,
+                        "photo_url": "http://localhost/storage/players/fadi.jpg",
+                        "is_goalkeeper": false,
+                        "rating": 30,
+                        "rating_exact": 30,
+                        "rank": 7,
+                        "tier_now": "C",
+                        "tier_prev": "C",
+                        "trend": 0,
+                        "moved": null
+                    },
+                    {
+                        "slug": "basel",
+                        "name": "باسل",
+                        "number": 9,
+                        "photo_url": "http://localhost/storage/players/basel.jpg",
+                        "is_goalkeeper": false,
+                        "rating": 30,
+                        "rating_exact": 30,
+                        "rank": 8,
+                        "tier_now": "C",
+                        "tier_prev": "C",
+                        "trend": 0,
+                        "moved": null
+                    },
+                    {
+                        "slug": "osaid",
+                        "name": "أسيد",
+                        "number": null,
+                        "photo_url": null,
+                        "is_goalkeeper": false,
+                        "rating": 30,
+                        "rating_exact": 30,
+                        "rank": 9,
+                        "tier_now": "C",
+                        "tier_prev": "C",
+                        "trend": 0,
+                        "moved": null
+                    },
+                    {
+                        "slug": "nizar",
+                        "name": "نزار",
+                        "number": 14,
+                        "photo_url": "http://localhost/storage/players/nizar.jpg",
+                        "is_goalkeeper": false,
+                        "rating": 30,
+                        "rating_exact": 30,
+                        "rank": 10,
+                        "tier_now": "C",
+                        "tier_prev": "C",
+                        "trend": 0,
+                        "moved": null
+                    },
+                    {
+                        "slug": "hamoudeh",
+                        "name": "حمودة",
+                        "number": 13,
+                        "photo_url": "http://localhost/storage/players/hamoudeh.jpg",
+                        "is_goalkeeper": false,
+                        "rating": 30,
+                        "rating_exact": 30,
+                        "rank": 11,
+                        "tier_now": "C",
+                        "tier_prev": "C",
+                        "trend": 0,
+                        "moved": null
+                    },
+                    {
+                        "slug": "hamza",
+                        "name": "حمزة",
+                        "number": null,
+                        "photo_url": null,
+                        "is_goalkeeper": false,
+                        "rating": 30,
+                        "rating_exact": 30,
+                        "rank": 12,
+                        "tier_now": "C",
+                        "tier_prev": "C",
+                        "trend": 0,
+                        "moved": null
+                    },
+                    {
+                        "slug": "mamoun",
+                        "name": "مأمون الزبن",
+                        "number": null,
+                        "photo_url": null,
+                        "is_goalkeeper": false,
+                        "rating": 30,
+                        "rating_exact": 30,
+                        "rank": 13,
+                        "tier_now": "C",
+                        "tier_prev": "C",
+                        "trend": 0,
+                        "moved": null
+                    },
+                    {
+                        "slug": "hazem",
+                        "name": "حازم",
+                        "number": 1,
+                        "photo_url": "http://localhost/storage/players/hazem.jpg",
+                        "is_goalkeeper": true,
+                        "rating": 30,
+                        "rating_exact": 30,
+                        "rank": 14,
+                        "tier_now": "C",
+                        "tier_prev": "C",
+                        "trend": 0,
+                        "moved": null
+                    }
+                ]
+            }
+        },
+        "record": {
+            "mp": 0,
+            "w": 0,
+            "d": 0,
+            "l": 0,
+            "gf": 0,
+            "ga": 0,
+            "cs": 0
+        },
+        "awards": [
+            {
+                "key": "top_rated",
+                "icon": "👑",
+                "ar": "الأعلى تقييماً",
+                "en": "RANK 1",
+                "unit": "pts",
+                "val": null,
+                "player": null
+            },
+            {
+                "key": "top_scorer",
+                "icon": "⚽",
+                "ar": "الهداف",
+                "en": "GOALS",
+                "unit": "g",
+                "val": null,
+                "player": null
+            },
+            {
+                "key": "top_assister",
+                "icon": "🎯",
+                "ar": "صانع اللعب",
+                "en": "ASSISTS",
+                "unit": "a",
+                "val": null,
+                "player": null
+            },
+            {
+                "key": "top_contributor",
+                "icon": "🔥",
+                "ar": "الأكثر مساهمة",
+                "en": "G+A",
+                "unit": "g+a",
+                "val": null,
+                "player": null
+            },
+            {
+                "key": "most_appearances",
+                "icon": "📅",
+                "ar": "الأكثر حضوراً",
+                "en": "APPS",
+                "unit": "mp",
+                "val": null,
+                "player": null
+            },
+            {
+                "key": "the_wall",
+                "icon": "🧤",
+                "ar": "الجدار",
+                "en": "SAVES",
+                "unit": "s",
+                "val": null,
+                "player": null
+            },
+            {
+                "key": "the_rock",
+                "icon": "🪨",
+                "ar": "الصخرة",
+                "en": "TACKLES",
+                "unit": "t",
+                "val": null,
+                "player": null
+            },
+            {
+                "key": "most_motm",
+                "icon": "⭐",
+                "ar": "نجم المباريات",
+                "en": "MOTM",
+                "unit": "motm",
+                "val": null,
+                "player": null
+            },
+            {
+                "key": "the_rocket",
+                "icon": "🚀",
+                "ar": "الصاروخ",
+                "en": "RISE",
+                "unit": "rise",
+                "val": null,
+                "player": null
+            }
+        ],
+        "live": null,
+        "next_fixture": {
+            "id": 1,
+            "opponent": "زيزيا",
+            "kickoff_at": "2026-11-20T17:00:00.000000Z",
+            "date": "2026-11-20",
+            "time": "20:00",
+            "status": "scheduled",
+            "status_label": "في موعدها",
+            "competition": "مباراة ودية",
+            "location": null,
+            "map_url": null,
+            "notes": null,
+            "is_upcoming": true
+        },
+        "latest_posts": [
+            {
+                "slug": "welcome-to-wheel-football",
+                "category": {
+                    "key": "company",
+                    "title": "أخبار الشركة",
+                    "title_en": "Company news",
+                    "icon": "🏢"
+                },
+                "title": "أهلاً بكم في تطبيق WHEEL Football",
+                "excerpt": "كل ما يخص فريق الشركة في مكان واحد: الترتيب، المباريات، البث المباشر، الأخبار ونصائح اللياقة.",
+                "cover_url": null,
+                "is_pinned": true,
+                "published_at": "2026-11-14T07:00:00.000000Z",
+                "read_minutes": 1,
+                "views": 0
+            },
+            {
+                "slug": "how-player-ratings-work",
+                "category": {
+                    "key": "company",
+                    "title": "أخبار الشركة",
+                    "title_en": "Company news",
+                    "icon": "🏢"
+                },
+                "title": "كيف يُحسب تقييم اللاعبين؟",
+                "excerpt": "شرح مبسّط لنظام النقاط والفئات وكيف يتحرك تقييمك بعد كل مباراة.",
+                "cover_url": null,
+                "is_pinned": false,
+                "published_at": "2026-11-12T07:00:00.000000Z",
+                "read_minutes": 1,
+                "views": 0
+            },
+            {
+                "slug": "fair-play-and-company-values",
+                "category": {
+                    "key": "company",
+                    "title": "أخبار الشركة",
+                    "title_en": "Company news",
+                    "icon": "🏢"
+                },
+                "title": "اللعب النظيف وقيم الشركة داخل الملعب",
+                "excerpt": "الفوز مهم، بس الطريقة اللي بنلعب فيها أهم. عشان هيك نظام التقييم بيكافئ السلوك مش بس الأهداف. نقاط اللعب النظيف كل لاعب بيبلش المباراة ومعه نقاط اللعب النظيف، و...",
+                "cover_url": null,
+                "is_pinned": false,
+                "published_at": "2026-11-10T07:00:00.000000Z",
+                "read_minutes": 1,
+                "views": 0
+            }
+        ],
+        "version": 32
+    }
+}

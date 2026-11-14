@@ -1,0 +1,50 @@
+{
+    "data": {
+        "upcoming": [
+            {
+                "id": 1,
+                "opponent": "زيزيا",
+                "kickoff_at": "2026-11-20T17:00:00.000000Z",
+                "date": "2026-11-20",
+                "time": "20:00",
+                "status": "scheduled",
+                "status_label": "في موعدها",
+                "competition": "مباراة ودية",
+                "location": null,
+                "map_url": null,
+                "notes": null,
+                "is_upcoming": true
+            },
+            {
+                "id": 2,
+                "opponent": "رجائي",
+                "kickoff_at": "2026-11-27T18:00:00.000000Z",
+                "date": "2026-11-27",
+                "time": "21:00",
+                "status": "scheduled",
+                "status_label": "في موعدها",
+                "competition": "مباراة ودية",
+                "location": null,
+                "map_url": null,
+                "notes": null,
+                "is_upcoming": true
+            }
+        ],
+        "recent": [
+            {
+                "id": 3,
+                "opponent": "قديم",
+                "kickoff_at": "2026-11-11T17:00:00.000000Z",
+                "date": "2026-11-11",
+                "time": "20:00",
+                "status": "scheduled",
+                "status_label": "في موعدها",
+                "competition": null,
+                "location": "ملعب الحسين",
+                "map_url": null,
+                "notes": null,
+                "is_upcoming": false
+            }
+        ]
+    }
+}

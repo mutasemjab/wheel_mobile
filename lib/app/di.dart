@@ -61,6 +61,12 @@ import '../features/awards/data/repositories/awards_repository_impl.dart';
 import '../features/awards/domain/repositories/awards_repository.dart';
 import '../features/awards/domain/usecases/get_awards.dart';
 import '../features/awards/presentation/bloc/awards_cubit.dart';
+import '../features/compare/presentation/bloc/compare_cubit.dart';
+import '../features/fixtures/data/datasources/fixtures_remote_data_source.dart';
+import '../features/fixtures/data/repositories/fixtures_repository_impl.dart';
+import '../features/fixtures/domain/repositories/fixtures_repository.dart';
+import '../features/fixtures/domain/usecases/get_fixtures.dart';
+import '../features/fixtures/presentation/bloc/fixtures_cubit.dart';
 import '../features/home/data/datasources/home_remote_data_source.dart';
 import '../features/home/data/repositories/home_repository_impl.dart';
 import '../features/home/domain/repositories/home_repository.dart';
@@ -97,6 +103,14 @@ import '../features/matches/domain/usecases/get_match_detail.dart';
 import '../features/matches/domain/usecases/get_matches.dart';
 import '../features/matches/presentation/bloc/match_detail_cubit.dart';
 import '../features/matches/presentation/bloc/matches_bloc.dart';
+import '../features/news/data/datasources/news_remote_data_source.dart';
+import '../features/news/data/repositories/news_repository_impl.dart';
+import '../features/news/domain/repositories/news_repository.dart';
+import '../features/news/domain/usecases/get_post.dart';
+import '../features/news/domain/usecases/get_post_categories.dart';
+import '../features/news/domain/usecases/get_posts.dart';
+import '../features/news/presentation/bloc/news_bloc.dart';
+import '../features/news/presentation/bloc/post_detail_cubit.dart';
 import '../features/players/data/datasources/players_remote_data_source.dart';
 import '../features/players/data/repositories/players_repository_impl.dart';
 import '../features/players/domain/repositories/players_repository.dart';
@@ -209,6 +223,12 @@ void _repositories(SharedPreferences prefs) {
     )
     ..registerLazySingleton<SettingsRepository>(
       () => SettingsRepositoryImpl(SettingsRemoteDataSource(sl())),
+    )
+    ..registerLazySingleton<NewsRepository>(
+      () => NewsRepositoryImpl(NewsRemoteDataSource(sl())),
+    )
+    ..registerLazySingleton<FixturesRepository>(
+      () => FixturesRepositoryImpl(FixturesRemoteDataSource(sl())),
     );
 }
 
@@ -255,7 +275,11 @@ void _useCases() {
     ..registerLazySingleton(() => GetTeamSettings(sl()))
     ..registerLazySingleton(() => SaveTeamSettings(sl()))
     ..registerLazySingleton(() => RecomputeRatings(sl()))
-    ..registerLazySingleton(() => ExportBackup(sl()));
+    ..registerLazySingleton(() => ExportBackup(sl()))
+    ..registerLazySingleton(() => GetPosts(sl()))
+    ..registerLazySingleton(() => GetPostCategories(sl()))
+    ..registerLazySingleton(() => GetPost(sl()))
+    ..registerLazySingleton(() => GetFixtures(sl()));
 }
 
 /// After an admin write: refresh every viewer screen now.
@@ -301,6 +325,19 @@ void _presentation() {
     ..registerFactoryParam<MatchDetailCubit, String, void>(
       (code, _) =>
           MatchDetailCubit(sl(), code, refreshTrigger: poller.dataChanges),
+    )
+    ..registerFactory(
+      () => NewsBloc(sl(), sl(), refreshTrigger: poller.dataChanges),
+    )
+    ..registerFactoryParam<PostDetailCubit, String, void>(
+      (slug, _) =>
+          PostDetailCubit(sl(), slug, refreshTrigger: poller.dataChanges),
+    )
+    ..registerFactory(
+      () => FixturesCubit(sl(), refreshTrigger: poller.dataChanges),
+    )
+    ..registerFactory(
+      () => CompareCubit(sl(), refreshTrigger: poller.dataChanges),
     )
     ..registerFactory(
       () => LiveViewerCubit(

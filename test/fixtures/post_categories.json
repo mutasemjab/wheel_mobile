@@ -1,0 +1,32 @@
+{
+    "data": [
+        {
+            "key": "company",
+            "title": "أخبار الشركة",
+            "title_en": "Company news",
+            "icon": "🏢",
+            "count": 4
+        },
+        {
+            "key": "football",
+            "title": "عالم الكرة",
+            "title_en": "Football",
+            "icon": "⚽",
+            "count": 4
+        },
+        {
+            "key": "fitness",
+            "title": "لياقة وصحة",
+            "title_en": "Fitness & health",
+            "icon": "💪",
+            "count": 4
+        },
+        {
+            "key": "match_report",
+            "title": "تقارير المباريات",
+            "title_en": "Match reports",
+            "icon": "📝",
+            "count": 0
+        }
+    ]
+}

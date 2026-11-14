@@ -154,7 +154,7 @@
   "adminLogin": "دخول الإدارة",
   "adminPanel": "لوحة الإدارة",
   "about": "عن التطبيق",
-  "aboutText": "تطبيق فريق WHEEL FC: التقييمات والمباريات والإحصائيات، ومكتب المباراة المباشرة للإدارة.",
+  "aboutText": "تطبيق WHEEL Football: أخبار الشركة وعالم الكرة، نصائح اللياقة، جدول المباريات، ترتيب وتقييم اللاعبين، النتائج والإحصائيات، ومتابعة المباريات مباشرة.",
   "publicSite": "الموقع العام",
 
   "loginTitle": "دخول الإدارة",
@@ -297,5 +297,37 @@
   "ratingsTitle": "النقاط والتقييم",
   "alreadyPublished": "هاي المباراة انْشرت قبل هيك، ما بنقدر نكمل عليها. رح تنحذف من الجهاز.",
   "backup": "نسخة احتياطية",
-  "pinAdminHint": "الدخول بالرمز لمدير المباراة بس. الإعدادات بدها دخول بالإيميل."
+  "pinAdminHint": "الدخول بالرمز لمدير المباراة بس. الإعدادات بدها دخول بالإيميل.",
+
+  "navNews": "الأخبار",
+  "newsTitle": "الأخبار",
+  "newsAll": "الكل",
+  "newsPinned": "مثبّت",
+  "newsReadMinutes": "{minutes} د قراءة",
+  "@newsReadMinutes": { "placeholders": { "minutes": { "type": "int" } } },
+  "newsRelated": "اقرأ كمان",
+  "newsEmpty": "ما في أخبار بهاد التصنيف لهلأ",
+  "latestNews": "آخر الأخبار",
+  "seeAll": "عرض الكل",
+
+  "resultsTab": "النتائج",
+  "fixturesTab": "المواعيد",
+  "fixturesUpcoming": "المباريات القادمة",
+  "fixturesRecent": "مواعيد سابقة",
+  "noFixtures": "ما في مباريات مجدولة حالياً",
+  "nextMatch": "المباراة القادمة",
+  "countdownStarted": "بلشت",
+  "countdownMinutes": "بعد {n} دقيقة",
+  "@countdownMinutes": { "placeholders": { "n": { "type": "int" } } },
+  "countdownHours": "بعد {n} ساعة",
+  "@countdownHours": { "placeholders": { "n": { "type": "int" } } },
+  "countdownDays": "بعد {n} يوم",
+  "@countdownDays": { "placeholders": { "n": { "type": "int" } } },
+  "openInMaps": "افتح الموقع على الخريطة",
+
+  "compareTitle": "مقارنة لاعبين",
+  "comparePick": "اختار لاعب",
+  "compareHint": "اختار لاعبين عشان تقارن بين أرقامهم",
+  "statGoalsAssists": "أهداف + صناعة",
+  "statGoalsPerMatch": "أهداف بالمباراة"
 }

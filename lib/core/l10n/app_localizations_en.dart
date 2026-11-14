@@ -427,7 +427,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get aboutText =>
-      'تطبيق فريق WHEEL FC: التقييمات والمباريات والإحصائيات، ومكتب المباراة المباشرة للإدارة.';
+      'تطبيق WHEEL Football: أخبار الشركة وعالم الكرة، نصائح اللياقة، جدول المباريات، ترتيب وتقييم اللاعبين، النتائج والإحصائيات، ومتابعة المباريات مباشرة.';
 
   @override
   String get publicSite => 'الموقع العام';
@@ -838,4 +838,87 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get pinAdminHint =>
       'الدخول بالرمز لمدير المباراة بس. الإعدادات بدها دخول بالإيميل.';
+
+  @override
+  String get navNews => 'الأخبار';
+
+  @override
+  String get newsTitle => 'الأخبار';
+
+  @override
+  String get newsAll => 'الكل';
+
+  @override
+  String get newsPinned => 'مثبّت';
+
+  @override
+  String newsReadMinutes(int minutes) {
+    return '$minutes د قراءة';
+  }
+
+  @override
+  String get newsRelated => 'اقرأ كمان';
+
+  @override
+  String get newsEmpty => 'ما في أخبار بهاد التصنيف لهلأ';
+
+  @override
+  String get latestNews => 'آخر الأخبار';
+
+  @override
+  String get seeAll => 'عرض الكل';
+
+  @override
+  String get resultsTab => 'النتائج';
+
+  @override
+  String get fixturesTab => 'المواعيد';
+
+  @override
+  String get fixturesUpcoming => 'المباريات القادمة';
+
+  @override
+  String get fixturesRecent => 'مواعيد سابقة';
+
+  @override
+  String get noFixtures => 'ما في مباريات مجدولة حالياً';
+
+  @override
+  String get nextMatch => 'المباراة القادمة';
+
+  @override
+  String get countdownStarted => 'بلشت';
+
+  @override
+  String countdownMinutes(int n) {
+    return 'بعد $n دقيقة';
+  }
+
+  @override
+  String countdownHours(int n) {
+    return 'بعد $n ساعة';
+  }
+
+  @override
+  String countdownDays(int n) {
+    return 'بعد $n يوم';
+  }
+
+  @override
+  String get openInMaps => 'افتح الموقع على الخريطة';
+
+  @override
+  String get compareTitle => 'مقارنة لاعبين';
+
+  @override
+  String get comparePick => 'اختار لاعب';
+
+  @override
+  String get compareHint => 'اختار لاعبين عشان تقارن بين أرقامهم';
+
+  @override
+  String get statGoalsAssists => 'أهداف + صناعة';
+
+  @override
+  String get statGoalsPerMatch => 'أهداف بالمباراة';
 }

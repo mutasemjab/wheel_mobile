@@ -2,6 +2,8 @@ import 'package:equatable/equatable.dart';
 
 import '../../../../core/entities/enums.dart';
 import '../../../awards/domain/entities/award.dart';
+import '../../../fixtures/domain/entities/fixture.dart';
+import '../../../news/domain/entities/post.dart';
 import '../../../team/domain/entities/team.dart';
 
 /// Player card inside a home tier section (`/home` includes photo and number).
@@ -104,6 +106,8 @@ final class HomeData extends Equatable {
     this.record = const TeamRecord(),
     this.awards = const [],
     this.live,
+    this.nextFixture,
+    this.latestPosts = const [],
     this.version = 0,
   });
 
@@ -113,6 +117,8 @@ final class HomeData extends Equatable {
   final TeamRecord record;
   final List<Award> awards;
   final LiveBanner? live;
+  final Fixture? nextFixture;
+  final List<PostSummary> latestPosts;
   final int version;
 
   @override
@@ -123,6 +129,8 @@ final class HomeData extends Equatable {
     record,
     awards,
     live,
+    nextFixture,
+    latestPosts,
     version,
   ];
 }

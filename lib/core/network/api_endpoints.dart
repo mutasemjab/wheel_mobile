@@ -14,6 +14,10 @@ abstract final class ApiEndpoints {
   static const String matches = '/matches';
   static String match(String code) => '/matches/${Uri.encodeComponent(code)}';
   static const String live = '/live';
+  static const String posts = '/posts';
+  static const String postCategories = '/posts/categories';
+  static String post(String slug) => '/posts/${Uri.encodeComponent(slug)}';
+  static const String fixtures = '/fixtures';
 
   // Admin
   static const String adminPrefix = '/admin';

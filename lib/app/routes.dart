@@ -5,7 +5,10 @@ abstract final class AppRoutes {
   static const String matches = '/matches';
   static const String stats = '/stats';
   static const String more = '/more';
+  static const String news = '/news';
 
+  static String post(String slug) => '$news/${Uri.encodeComponent(slug)}';
+  static const String compare = '/compare';
   static String player(String slug) => '/players/${Uri.encodeComponent(slug)}';
   static String match(String code) => '$matches/${Uri.encodeComponent(code)}';
   static const String live = '/live';

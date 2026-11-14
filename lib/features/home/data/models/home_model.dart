@@ -1,6 +1,10 @@
 import '../../../../core/entities/enums.dart';
 import '../../../../core/utils/json_parsing.dart';
 import '../../../awards/data/models/award_model.dart';
+import '../../../fixtures/data/models/fixture_model.dart';
+import '../../../fixtures/domain/entities/fixture.dart';
+import '../../../news/data/models/post_model.dart';
+import '../../../news/domain/entities/post.dart';
 import '../../../team/data/models/team_model.dart';
 import '../../domain/entities/home_data.dart';
 
@@ -81,6 +85,8 @@ class HomeModel {
     required this.record,
     required this.awards,
     this.live,
+    this.nextFixture,
+    this.latestPosts = const [],
     required this.version,
   });
 
@@ -95,6 +101,8 @@ class HomeModel {
       live: live == null || asNonEmptyStringOrNull(live['code']) == null
           ? null
           : LiveBannerModel(live),
+      nextFixture: FixtureModel.fromJsonOrNull(json['next_fixture']),
+      latestPosts: PostSummaryModel.listFromJson(json['latest_posts']),
       version: asInt(json['version']),
     );
   }
@@ -105,6 +113,8 @@ class HomeModel {
   final TeamRecordModel record;
   final List<AwardModel> awards;
   final LiveBannerModel? live;
+  final Fixture? nextFixture;
+  final List<PostSummary> latestPosts;
   final int version;
 
   HomeData toEntity() => HomeData(
@@ -114,6 +124,8 @@ class HomeModel {
     record: record.toEntity(),
     awards: awards.map((a) => a.toEntity()).toList(growable: false),
     live: live?.toEntity(),
+    nextFixture: nextFixture,
+    latestPosts: latestPosts,
     version: version,
   );
 }

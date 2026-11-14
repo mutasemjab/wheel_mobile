@@ -899,7 +899,7 @@ abstract class AppLocalizations {
   /// No description provided for @aboutText.
   ///
   /// In ar, this message translates to:
-  /// **'تطبيق فريق WHEEL FC: التقييمات والمباريات والإحصائيات، ومكتب المباراة المباشرة للإدارة.'**
+  /// **'تطبيق WHEEL Football: أخبار الشركة وعالم الكرة، نصائح اللياقة، جدول المباريات، ترتيب وتقييم اللاعبين، النتائج والإحصائيات، ومتابعة المباريات مباشرة.'**
   String get aboutText;
 
   /// No description provided for @publicSite.
@@ -1693,6 +1693,156 @@ abstract class AppLocalizations {
   /// In ar, this message translates to:
   /// **'الدخول بالرمز لمدير المباراة بس. الإعدادات بدها دخول بالإيميل.'**
   String get pinAdminHint;
+
+  /// No description provided for @navNews.
+  ///
+  /// In ar, this message translates to:
+  /// **'الأخبار'**
+  String get navNews;
+
+  /// No description provided for @newsTitle.
+  ///
+  /// In ar, this message translates to:
+  /// **'الأخبار'**
+  String get newsTitle;
+
+  /// No description provided for @newsAll.
+  ///
+  /// In ar, this message translates to:
+  /// **'الكل'**
+  String get newsAll;
+
+  /// No description provided for @newsPinned.
+  ///
+  /// In ar, this message translates to:
+  /// **'مثبّت'**
+  String get newsPinned;
+
+  /// No description provided for @newsReadMinutes.
+  ///
+  /// In ar, this message translates to:
+  /// **'{minutes} د قراءة'**
+  String newsReadMinutes(int minutes);
+
+  /// No description provided for @newsRelated.
+  ///
+  /// In ar, this message translates to:
+  /// **'اقرأ كمان'**
+  String get newsRelated;
+
+  /// No description provided for @newsEmpty.
+  ///
+  /// In ar, this message translates to:
+  /// **'ما في أخبار بهاد التصنيف لهلأ'**
+  String get newsEmpty;
+
+  /// No description provided for @latestNews.
+  ///
+  /// In ar, this message translates to:
+  /// **'آخر الأخبار'**
+  String get latestNews;
+
+  /// No description provided for @seeAll.
+  ///
+  /// In ar, this message translates to:
+  /// **'عرض الكل'**
+  String get seeAll;
+
+  /// No description provided for @resultsTab.
+  ///
+  /// In ar, this message translates to:
+  /// **'النتائج'**
+  String get resultsTab;
+
+  /// No description provided for @fixturesTab.
+  ///
+  /// In ar, this message translates to:
+  /// **'المواعيد'**
+  String get fixturesTab;
+
+  /// No description provided for @fixturesUpcoming.
+  ///
+  /// In ar, this message translates to:
+  /// **'المباريات القادمة'**
+  String get fixturesUpcoming;
+
+  /// No description provided for @fixturesRecent.
+  ///
+  /// In ar, this message translates to:
+  /// **'مواعيد سابقة'**
+  String get fixturesRecent;
+
+  /// No description provided for @noFixtures.
+  ///
+  /// In ar, this message translates to:
+  /// **'ما في مباريات مجدولة حالياً'**
+  String get noFixtures;
+
+  /// No description provided for @nextMatch.
+  ///
+  /// In ar, this message translates to:
+  /// **'المباراة القادمة'**
+  String get nextMatch;
+
+  /// No description provided for @countdownStarted.
+  ///
+  /// In ar, this message translates to:
+  /// **'بلشت'**
+  String get countdownStarted;
+
+  /// No description provided for @countdownMinutes.
+  ///
+  /// In ar, this message translates to:
+  /// **'بعد {n} دقيقة'**
+  String countdownMinutes(int n);
+
+  /// No description provided for @countdownHours.
+  ///
+  /// In ar, this message translates to:
+  /// **'بعد {n} ساعة'**
+  String countdownHours(int n);
+
+  /// No description provided for @countdownDays.
+  ///
+  /// In ar, this message translates to:
+  /// **'بعد {n} يوم'**
+  String countdownDays(int n);
+
+  /// No description provided for @openInMaps.
+  ///
+  /// In ar, this message translates to:
+  /// **'افتح الموقع على الخريطة'**
+  String get openInMaps;
+
+  /// No description provided for @compareTitle.
+  ///
+  /// In ar, this message translates to:
+  /// **'مقارنة لاعبين'**
+  String get compareTitle;
+
+  /// No description provided for @comparePick.
+  ///
+  /// In ar, this message translates to:
+  /// **'اختار لاعب'**
+  String get comparePick;
+
+  /// No description provided for @compareHint.
+  ///
+  /// In ar, this message translates to:
+  /// **'اختار لاعبين عشان تقارن بين أرقامهم'**
+  String get compareHint;
+
+  /// No description provided for @statGoalsAssists.
+  ///
+  /// In ar, this message translates to:
+  /// **'أهداف + صناعة'**
+  String get statGoalsAssists;
+
+  /// No description provided for @statGoalsPerMatch.
+  ///
+  /// In ar, this message translates to:
+  /// **'أهداف بالمباراة'**
+  String get statGoalsPerMatch;
 }
 
 class _AppLocalizationsDelegate
